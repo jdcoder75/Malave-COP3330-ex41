@@ -1,0 +1,10 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+Main -> output_File: Authentication Request
+output_File --> Main: Authentication Response
+
+
+@enduml
